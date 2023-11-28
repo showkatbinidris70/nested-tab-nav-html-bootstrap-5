@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap 5.0.2 min.css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Nested Tab Nav Deshboard</title>
+</head>
+
+<body>
+    <section class="container">
+        <div class="class-routine-container">
+            <div class="class-routine-table">
+                <div class="row justify-content-center">
+                    <div>
+                        <ul class="nav text-white d-flex justify-content-around class-routine-table-tab-nav">
+                            <li class="nav-item d-flex align-items-center">
+                                <a class="nav-link link-secondary active" id="class-six-tab" data-bs-toggle="tab"
+                                    data-bs-target="#class-six" href="#">
+                                    <div class="d-flex gap-distance"> <img src="/assets/icons/profile-2user.svg"
+                                            alt="user-icon"> ষষ্ঠ শ্রেণী
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item d-flex align-items-center">
+                                <a class="nav-link link-secondary" id="class-seven-tab" data-bs-toggle="tab"
+                                    data-bs-target="#class-seven" href="#">
+                                    <div class="d-flex gap-distance"> <img src="/assets/icons/profile-2user.svg"
+                                            alt="user-icon"> সপ্তম
+                                        শ্রেণী</div>
+                                </a>
+                            </li>
+                            <li class="nav-item d-flex align-items-center">
+                                <a class="nav-link link-secondary" id="class-eight-tab" data-bs-toggle="tab"
+                                    data-bs-target="#class-eight" href="#">
+                                    <div class="d-flex gap-distance"> <img src="/assets/icons/profile-2user.svg"
+                                            alt="user-icon"> অষ্টম
+                                        শ্রেণী</div>
+                                </a>
+                            </li>
+                            <li class="nav-item d-flex align-items-center">
+                                <a class="nav-link link-secondary" id="class-nine-tab" data-bs-toggle="tab"
+                                    data-bs-target="#class-nine" href="#">
+                                    <div class="d-flex gap-distance"> <img src="/assets/icons/profile-2user.svg"
+                                            alt="user-icon"> নবম শ্রেণী
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item d-flex align-items-center">
+                                <a class="nav-link link-secondary" id="class-ten-tab" data-bs-toggle="tab"
+                                    data-bs-target="#class-ten" href="#">
+                                    <div class="d-flex gap-distance"> <img src="/assets/icons/profile-2user.svg"
+                                            alt="user-icon"> দশম শ্রেণী
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="tabContent">
+                        <div class="tab-pane fade show active" id="class-six" role="tabpanel"
+                            aria-labelledby="class-six-tab">
+                            <div class="routine-section">
+                                <ul class="nav d-flex align-items-center text-white">
+                                    <li class="nav-item">
+                                        <a class="nav-link active class-and-section" id="class-six-padma-tab"
+                                            data-bs-toggle="tab" data-bs-target="#class-six-padma" href="#">
+                                            পদ্মা
+                                        </a>
+                                    </li>
+                                    <li class="nav-item d-flex align-items-center">
+                                        <a class="nav-link class-and-section" id="class-six-meghna-tab"
+                                            data-bs-toggle="tab" data-bs-target="#class-six-meghna" href="#">
+                                            মেঘনা
+                                        </a>
+                                    </li>
+                                    <li class="nav-item d-flex align-items-center">
+                                        <a class="nav-link class-and-section" id="class-six-jamuna-tab"
+                                            data-bs-toggle="tab" data-bs-target="#class-six-jamuna" href="#">
+                                            যমুনা
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-content" id="tabContent">
+                                <div class="tab-pane fade show active" id="class-six-padma" role="tabpanel"
+                                    aria-labelledby="class-six-padma-tab">
+                                    <h1>class six padma section</h1>
+                                </div>
+                                <div class="tab-pane fade" id="class-six-meghna" role="tabpanel"
+                                    aria-labelledby="class-six-meghna-tab">
+                                    <h1>class six meghna section</h1>
+                                </div>
+                                <div class="tab-pane fade" id="class-six-jamuna" role="tabpanel"
+                                    aria-labelledby="class-six-jamuna-tab">
+                                    <h1>class six jamuna section</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="class-seven" role="tabpanel" aria-labelledby="class-seven-tab">
+                            <div class="routine-section">
+                                <ul class="nav d-flex align-items-center text-white">
+                                    <li class="nav-item">
+                                        <a class="nav-link active class-and-section" id="class-seven-padma-tab"
+                                            data-bs-toggle="tab" data-bs-target="#class-seven-padma" href="#">
+                                            পদ্মা
+                                        </a>
+                                    </li>
+                                    <li class="nav-item d-flex align-items-center">
+                                        <a class="nav-link class-and-section" id="class-seven-meghna-tab"
+                                            data-bs-toggle="tab" data-bs-target="#class-seven-meghna" href="#">
+                                            মেঘনা
+                                        </a>
+                                    </li>
+                                    <li class="nav-item d-flex align-items-center">
+                                        <a class="nav-link class-and-section" id="class-seven-jamuna-tab"
+                                            data-bs-toggle="tab" data-bs-target="#class-seven-jamuna" href="#">
+                                            যমুনা
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-content" id="tabContent">
+                                <div class="tab-pane fade show active" id="class-seven-padma" role="tabpanel"
+                                    aria-labelledby="class-seven-padma-tab">
+                                    <h1>class seven padma section</h1>
+                                </div>
+                                <div class="tab-pane fade" id="class-seven-meghna" role="tabpanel"
+                                    aria-labelledby="class-seven-meghna-tab">
+                                    <h1>class seven meghna section</h1>
+                                </div>
+                                <div class="tab-pane fade" id="class-seven-jamuna" role="tabpanel"
+                                    aria-labelledby="class-seven-jamuna-tab">
+                                    <h1>class seven jamuna section</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="class-eight" role="tabpanel" aria-labelledby="class-eight-tab">
+                            <div class="routine-section">
+                                <ul class="nav d-flex align-items-center text-white">
+                                    <li class="nav-item">
+                                        <a class="nav-link active class-and-section" id="class-eight-padma-tab"
+                                            data-bs-toggle="tab" data-bs-target="#class-eight-padma" href="#">
+                                            পদ্মা
+                                        </a>
+                                    </li>
+                                    <li class="nav-item d-flex align-items-center">
+                                        <a class="nav-link class-and-section" id="class-eight-meghna-tab"
+                                            data-bs-toggle="tab" data-bs-target="#class-eight-meghna" href="#">
+                                            মেঘনা
+                                        </a>
+                                    </li>
+                                    <li class="nav-item d-flex align-items-center">
+                                        <a class="nav-link class-and-section" id="class-eight-jamuna-tab"
+                                            data-bs-toggle="tab" data-bs-target="#class-eight-jamuna" href="#">
+                                            যমুনা
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-content" id="tabContent">
+                                <div class="tab-pane fade show active" id="class-eight-padma" role="tabpanel"
+                                    aria-labelledby="class-eight-padma-tab">
+                                    <h1>class eight padma section</h1>
+                                </div>
+                                <div class="tab-pane fade" id="class-eight-meghna" role="tabpanel"
+                                    aria-labelledby="class-eight-meghna-tab">
+                                    <h1>class eight meghna section</h1>
+                                </div>
+                                <div class="tab-pane fade" id="class-eight-jamuna" role="tabpanel"
+                                    aria-labelledby="class-eight-jamuna-tab">
+                                    <h1>class eight jamuna section</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="class-nine" role="tabpanel" aria-labelledby="class-nine-tab">
+                            <div class="routine-section">
+                                <ul class="nav d-flex align-items-center text-white">
+                                    <li class="nav-item">
+                                        <a class="nav-link active class-and-section" id="class-nine-padma-tab"
+                                            data-bs-toggle="tab" data-bs-target="#class-nine-padma" href="#">
+                                            পদ্মা
+                                        </a>
+                                    </li>
+                                    <li class="nav-item d-flex align-items-center">
+                                        <a class="nav-link class-and-section" id="class-nine-meghna-tab"
+                                            data-bs-toggle="tab" data-bs-target="#class-nine-meghna" href="#">
+                                            মেঘনা
+                                        </a>
+                                    </li>
+                                    <li class="nav-item d-flex align-items-center">
+                                        <a class="nav-link class-and-section" id="class-nine-jamuna-tab"
+                                            data-bs-toggle="tab" data-bs-target="#class-nine-jamuna" href="#">
+                                            যমুনা
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-content" id="tabContent">
+                                <div class="tab-pane fade show active" id="class-nine-padma" role="tabpanel"
+                                    aria-labelledby="class-nine-padma-tab">
+                                    <h1>class nine padma section</h1>
+                                </div>
+                                <div class="tab-pane fade" id="class-nine-meghna" role="tabpanel"
+                                    aria-labelledby="class-nine-meghna-tab">
+                                    <h1>class nine meghna section</h1>
+                                </div>
+                                <div class="tab-pane fade" id="class-nine-jamuna" role="tabpanel"
+                                    aria-labelledby="class-nine-jamuna-tab">
+                                    <h1>class nine jamuna section</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="class-ten" role="tabpanel" aria-labelledby="class-ten-tab">
+                            <div class="routine-section">
+                                <ul class="nav d-flex align-items-center text-white">
+                                    <li class="nav-item">
+                                        <a class="nav-link active class-and-section" id="class-ten-padma-tab"
+                                            data-bs-toggle="tab" data-bs-target="#class-ten-padma" href="#">
+                                            পদ্মা
+                                        </a>
+                                    </li>
+                                    <li class="nav-item d-flex align-items-center">
+                                        <a class="nav-link class-and-section" id="class-ten-meghna-tab"
+                                            data-bs-toggle="tab" data-bs-target="#class-ten-meghna" href="#">
+                                            মেঘনা
+                                        </a>
+                                    </li>
+                                    <li class="nav-item d-flex align-items-center">
+                                        <a class="nav-link class-and-section" id="class-ten-jamuna-tab"
+                                            data-bs-toggle="tab" data-bs-target="#class-ten-jamuna" href="#">
+                                            যমুনা
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-content" id="tabContent">
+                                <div class="tab-pane fade show active" id="class-ten-padma" role="tabpanel"
+                                    aria-labelledby="class-ten-padma-tab">
+                                    <h1>class ten padma section</h1>
+                                </div>
+                                <div class="tab-pane fade" id="class-ten-meghna" role="tabpanel"
+                                    aria-labelledby="class-ten-meghna-tab">
+                                    <h1>class ten meghna section</h1>
+                                </div>
+                                <div class="tab-pane fade" id="class-ten-jamuna" role="tabpanel"
+                                    aria-labelledby="class-ten-jamuna-tab">
+                                    <h1>class ten jamuna section</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- bootstrap 5.0.2 min.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
